@@ -10,8 +10,8 @@
    5. Check the status <br> ```git status```
    6. Stage all untracked files and modifications <br> ```git add . (or the name of the file that You wish)``` 
    7. The first commit:<br> ```git commit -m "[Write the masage for your commit.]"```
-2. ### Fetching: <br>
-   _Now You need to synchronize your local repo with the origin repo. To to it, use the command ```"fetch"```_.
+2. ### Fetching: <br> 
+   _Now You need to synchronize your local repo with the origin repo. To do it, use the command ```"fetch"```_.
    1.  ```git fecth origin```
 3. ### Pushing: <br>
    _Now You're able to send your 1st commit to the ```"origin"``` (the remote repo)_.
@@ -21,3 +21,7 @@
    1.  Create a new branch<br>```git branch BranchName ``` _(or the ```BranchName``` that You wish)_.
    2.  Check all the braches<br>_You'll see an asterisk **(*)** at the left side of your current branch_.<br>```git branch```
    3.  Change from your current branch to the new one<br>```git checkout BranchName```
+   4.  Push your new branch to the origin<br>```git push origin BranchName```
+
+
+Great! Now You're able to make all the code changes that you wish.<br>On the next steps You'll learn how to **delete** some **branch** and how to make a _"pull request"_ to **merge** the changes that You could made in your current **banch** into the project's **master branch**.
