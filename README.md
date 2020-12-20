@@ -1,5 +1,6 @@
 # Repository to learn Github
 
+## Part 1:
 1. ### Creating your Local Repo: <br>
    _To start your work with Github, you need to have a local repo. <br>
    Let's create it and prepare your first commit:_
@@ -25,3 +26,11 @@
 
 
 Great! Now You're able to make all the code changes that you wish.<br>On the next steps You'll learn how to **delete** some **branch** and how to make a _"pull request"_ to **merge** the changes that You could made in your current **banch** into the project's **master branch**.
+
+## Part 2:
+1. ### Setting up: <br> 
+   _Create a **branch** called **"ToBeDeleted"** and push it into your origin_.
+   1.  ```git branch ToBeDeleted```
+   2.  ```git push origin ToBeDeleted```
+2. ### Deletin a local/remote branche:<br>
+   _dasdad_
