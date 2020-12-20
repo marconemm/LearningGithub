@@ -15,4 +15,9 @@
    1.  ```git fecth origin```
 3. ### Pushing: <br>
    _Now You're able to send your 1st commit to the ```"origin"``` (the remote repo)_.
-   1.  ```git push origin master ``` _(or the ```BranchName``` that You could be working on)_```_
+   1.  ```git push origin master ``` _(or the ```BranchName``` that You could be working on)_.
+4. ### Creating a branch: <br>
+   _The better way to work with the ```"git flow"``` is via **branches**.<br>In other words, each developer engaged in this project should work in "distinguished box" (**branch**, in the Git language).<br>And after finish your respectives code changes, They need to request a ```"merge"``` into the "master box" (**master branch**, in the Git language)_.
+   1.  Create a new branch<br>```git branch BranchName ``` _(or the ```BranchName``` that You wish)_.
+   2.  Check all the braches<br>_You'll see an asterisk **(*)** at the left side of your current branch_.<br>```git branch```
+   3.  Change from your current branch to the new one<br>```git checkout BranchName```
