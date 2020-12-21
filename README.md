@@ -34,4 +34,7 @@ Great! Now You're able to make all the code changes that you wish.<br>On the nex
    1.  ```git branch ToBeDeleted```
    2.  ```git push origin ToBeDeleted```
 2. ### Deleting a local/remote branch:<br>
-   _(... to be cotinued...)_
+   _To delete a remote branch, use the **":"** before the branch name.<br> And to remove a local branch use **"d"** before tha branch name.<br>e.g.:_
+   1. ```git push origin :ToBeDeleted```
+   2. ```git branch -d ToBeDeleted```
+   <br>Obs.: always use **"d"** instead **"D"**, to avoid an exclusion of an "unstaged" branch.
