@@ -1,0 +1,5 @@
+# Add below all the files extensions or folders that muts be ignored by Git.
+# Uncoment the line below to ignore even the changes mande in ".gitignore"
+#.gitignore
+
+ignoreThis.txt
