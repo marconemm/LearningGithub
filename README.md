@@ -50,7 +50,7 @@ ____
 
 _You can revert the changes that You could made with 2 ways:_
 ### Git revert:
-1. Using the command ```git revert <commit-ish>```, used to revert the _"actual code state"_ to the _"code state"_ commited in the ```"<commit-ish>"```. Using the ```git revert```, a new commit will be created with a standard message "revert + [ old ```<commit-ish>``` message ]
+1. Using the command ```git revert <commit-ish>```, used to revert the _"actual code state"_ to the _"code state"_ commited in the ```"<commit-ish>"```.<br>Using the ```git revert```, a new commit will be created with a standard message "revert + [ old ```<commit-ish>``` message ]
    1. _To learn more about ```git revert```, use ```git revert --help```_
    2. _Or visit this [YouTube video](https://youtu.be/6FS0I4CUbK4) (in portuguease)._
 ### Git reset:
