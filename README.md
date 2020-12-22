@@ -63,5 +63,5 @@ _You can revert the changes that You could made with 2 ways:_
 _You can use the ```git reset --hard [fileName]``` to recovery some file that You deleted by a mistake._
 
 ____
-## Part 5 - ...:
-<br><br>_(To be continued...)_
+## Part 5 - More help:
+Please visit [GitHub Docs](https://docs.github.com/en) to learn everithing else do You want about _"using git/GitHub"_.
