@@ -37,13 +37,31 @@ ____
    _To delete a remote branch, use the **":"** before the branch name.<br> And to remove a local branch use **"-d"** before tha branch name.<br>e.g.:_
    1. ```git push origin :ToBeDeleted```
    2. ```git branch -d ToBeDeleted```
-   <br>Obs.: always use **"-d"** instead **"-D"**, to avoid an exclusion of an "unstaged" branch.
+   <br>Obs.: always use **"-d"** instead **"-D"** to avoid an exclusion of an "unstaged" branch.
 ____
 ## Part 3 - The _".gitignore"_:
-   * _To avoid the streaming of "unnecessary project's files", like some files that are important only for a specific OS or a framework, the Git has the **".gitignore"** facility._
+   * _To avoid the streaming of "unnecessary project's files", like some files that are important only for a specific OS or a specific framework, the Git has the **".gitignore"** facility._
   
-   * _And to active it, just create a file named **".gitignore"** in the project's root folder, and after that, edit the **".gitignore"** with the **"*.extensions"** or **"./folder/."** that won't be streamed._
-   * _After all, ir You want a lot of ".gitignore" examples, please visit this [GitHub Repository](https://github.com/github/gitignore)._
+   * _To active it, just create a file named **".gitignore"** in the project's root folder, and after that, edit the **".gitignore"** with the **"*.extensions"** or **"./folder/."** that won't be streamed._
+   * _After all, if You want a lot of ".gitignore" examples, please visit this [GitHub Repository](https://github.com/github/gitignore)._
 
+____
+## Part 4 - Reverting changes made:
 
-_(To be continued...)_
+_You can revert the changes that You could made with 2 ways:_
+### Git revert:
+1. Using the command ```git revert [<options>] <commit-ish>```, used to revert some changes registered in the ```"<commit-ish>"``` in another commit called "revert + [ old ```<commit-ish>``` message ]
+   1. Incluve, usigin the ```<option>``` **"-e"**, is possible edit only the message from ```<commit-ish>```
+   2. _To learn more about ```git revert```, use ```git revert --help```_
+### Git reset:
+2. Using the command ```git reset [<mode>] [<commit>|fileName]```
+   <br>The main modes to ```git reset``` are ```--soft --mixed``` and ```--hard```.
+   1. ```--soft``` is used when You just want to exclude the referred commit and it staged files;
+   2. ```--mixed``` is the default mode, used when ou wnat to exclude the referred commit <u>**but**</u> don't want to touch on it stage files; and
+   3. ```--hard``` is used when You want to remove "everything". Since the commit until all the modification that You cloud mande on each file after the reffered commit.<br>Then, <u>**be careful**</u> when You use it.
+### Advice:
+_You can use the ```git reset --hard [fileName]``` to recovery some file that You deleted by a mistake._
+
+____
+## Part 5 - ...:
+<br><br>_(To be continued...)_
