@@ -11,6 +11,7 @@
    5. Check the status <br> ```git status```
    6. Stage all untracked files and modifications <br> ```git add . (or the name of the file that You wish)``` 
    7. The first commit:<br> ```git commit -m "[Write the masage for your commit.]"```
+   8. Blaming:<br> ```git blame [fileName.*]```
 2. ### Fetching and pulling: <br> 
    _Now, if You're working in a shared project, You need to synchronize your local repo with the origin repo. To do it, use the command ```"fetch"``` and, after, ```"pull```_.
    1.  ```git fecth origin```
@@ -54,13 +55,13 @@ _You can revert the changes that You could made with 2 ways:_
    1. _To learn more about ```git revert```, use ```git revert --help```_
    2. _Or visit this [YouTube video](https://youtu.be/6FS0I4CUbK4) (in portuguease)._
 ### Git reset:
-2. Using the command ```git reset [<mode>] [<commit>|fileName]```
+2. Using the command ```git reset [<mode>] [<commit>|fileName.*]```
    <br>The main modes to ```git reset``` are ```--soft --mixed``` and ```--hard```.
    1. ```--soft``` is used when You just want to exclude the referred commit and it staged files;
    2. ```--mixed``` is the default mode, used when ou wnat to exclude the referred commit <u>**but**</u> don't want to touch on it stage files; and
    3. ```--hard``` is used when You want to remove "everything". Since the commit until all the modification that You cloud mande on each file after the reffered commit.<br>Then, <u>**be careful**</u> when You use it.
 ### Advice:
-_You can use the ```git reset --hard [fileName]``` to recovery some file that You deleted by a mistake._
+_You can use the ```git reset --hard [fileName.*]``` to recovery some file that You deleted by a mistake._
 
 ____
 ## Part 5 - More help:
